@@ -1,6 +1,6 @@
-# Cypress 9 : Cucumber - Typescript - Xpath - Reports
+# Cypress 9 : Cucumber - Typescript - Xpath - Reports --- Exemple
 
-Cypress 9 with cucumber, typescript, xpath and reports
+- Cypress 9 with cucumber, typescript, xpath and reports (html, json)
 
 > **Install :** `npm install`
 
