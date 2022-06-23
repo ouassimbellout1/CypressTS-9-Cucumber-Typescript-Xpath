@@ -10,7 +10,7 @@ Cypress 9 with cucumber, typescript, xpath and reports
 
 All the configuration is in [cypress/plugins/index.js](cypress/plugins/index.js)
 
-TypeScript step definitions are in [cypress/e2e/passWithTypescript](cypress/e2e/passWithTypescript)
+TypeScript step definitions are in [cypress/integration/passWithTypescript](cypress/integration/passWithTypescript)
 
  - [ ] Note : (I'm using the **nonGlobalStepDefinitions** configuration in the [package.json](package.json) : *line 27*)
 
