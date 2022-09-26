@@ -7,7 +7,7 @@
 
 > **Open cypress :** `npx cypress open`
 
-All the configuration is in [cypress/plugins/index.js](cypress/plugins/index.ts)
+All the configuration is in [cypress/plugins/index.ts](cypress/plugins/index.ts)
 
 TypeScript step definitions are in [cypress/integration/passWithTypescript](cypress/integration/passWithTypescript)
 
