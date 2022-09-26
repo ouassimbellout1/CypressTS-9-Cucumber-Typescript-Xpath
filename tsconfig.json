@@ -6,7 +6,8 @@
       "lib": ["es6", "dom"],
       "types": ["cypress", "node", "cypress-xpath"],
       "esModuleInterop": true,
-      "typeRoots": ["node_modules/@types"]
+      "typeRoots": ["node_modules/@types"],
+      "noImplicitAny": false
     },
-    "include": ["**/*.ts"]
+    "include": ["**/*.ts", "**/*.json", "cypress/support/index.ts", "cypress/plugins/index.ts"]
   }
