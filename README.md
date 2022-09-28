@@ -1,7 +1,7 @@
 # Cypress 9 : *Cucumber - Typescript - Xpath - Reports --- Example*
 - Cypress 9 with cucumber, typescript, xpath and reports (html, json)
 
-> **Install :** `npm install`
+> **Install :** `npm install --save-dev`
 
 > **Test command :** `npm test`
 
