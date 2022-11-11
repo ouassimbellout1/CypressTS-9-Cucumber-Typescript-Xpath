@@ -1,0 +1,32 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Passing with TypeScript",
+    "line": 1,
+    "id": "passing-with-typescript",
+    "tags": [],
+    "uri": "passWithTypescript.feature",
+    "elements": [
+      {
+        "id": "passing-with-typescript;hello-again",
+        "keyword": "Scenario",
+        "line": 2,
+        "name": "Hello again",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "I pass",
+            "result": {
+              "status": "passed",
+              "duration": 7091000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

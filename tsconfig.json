@@ -1,13 +1,17 @@
 {
+
     "compilerOptions": {
-      "strict": true,
-      "module": "commonjs",
-      "target": "es6",
-      "lib": ["es6", "dom"],
-      "types": ["cypress", "node", "cypress-xpath"],
+      "strict"         : true,
       "esModuleInterop": true,
-      "typeRoots": ["node_modules/@types"],
-      "noImplicitAny": false
+      "noImplicitAny"  : false,
+      "moduleResolution": "node",
+      "module"         : "ES2022",
+      "target"         : "es6",
+      "lib"            : ["es6", "dom"],
+      "types"          : ["cypress", "node", "cypress-xpath"],
+      "typeRoots"      : ["node_modules/@types"]
+
     },
-    "include": ["**/*.ts", "**/*.json", "cypress/support/index.ts", "cypress/plugins/index.ts"]
+    
+    "include"          : ["**/*.ts", "**/*.json", "cypress/support/index.ts", "cypress/plugins/index.ts"]
   }

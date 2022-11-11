@@ -1,7 +1,7 @@
 {
   "name": "cypress9-cucumber-typescript-xpath-reports",
   "version": "1.0.0",
-  "description": "",
+  "description": "POM, Xpath, Custom commands, DataDriven with xlsx and json file",
   "main": "index.js",
   "scripts": {
     "clean:reports": "if exist cypress\\reports rmdir /S/Q cypress\\reports",
@@ -16,13 +16,15 @@
   "author": "Ouassim Bellout",
   "license": "ISC",
   "devDependencies": {
+    "@cypress/browserify-preprocessor": "^3.0.2",
     "@types/cypress-cucumber-preprocessor": "^4.0.1",
     "@types/node": "^18.7.22",
     "cypress": "^9.6.1",
     "cypress-cucumber-preprocessor": "^4.3.1",
     "cypress-xpath": "^1.6.2",
     "multiple-cucumber-html-reporter": "^1.21.4",
-    "typescript": "^4.7.4"
+    "typescript": "^4.7.4",
+    "xlsx": "^0.18.5"
   },
   "cypress-cucumber-preprocessor": {
     "nonGlobalStepDefinitions": true,
