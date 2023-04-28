@@ -24,7 +24,16 @@
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
 Cypress.Commands.add('googleSearch', (search) => {
-    cy.visit('https://www.google.com/');
-    cy.xpath("//input[@class='gLFyf gsfi']").type(`${search}{enter}`, { delay : 120 });
+cy.visit('https://www.google.com/');
+    cy.visit('/')
+/*    cy.visit('/', {
+        onBeforeLoad (win) {
+            Object.defineProperty(win.navigator, 'language', {
+              value: 'fr'
+            })
+          }
+        }); 
+*/
+    cy.xpath("//textarea[@id='APjFqb']").type(`${search}{enter}`, { delay : 120 });
     cy.get('.MUFPAc a').eq(2).click();
 })

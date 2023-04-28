@@ -1,7 +1,7 @@
 /// <reference types="cypress" />
 
 const variable = {
-    url           : `https://react-redux.realworld.io/#/login?_k=g43dop`,
+    url           : `https://react-redux.realworld.io/#/login`,
     excelFileName : `login`,
     sheetName     : `login`,
     jsonFileName  : `login`,
@@ -10,7 +10,8 @@ const variable = {
 class DataDriven {
 
     navigate() {
-        return cy.visit(variable.url);
+        //return cy.visit(variable.url);
+        return cy.visit('/');
     }
     
     excelFileValidate() {

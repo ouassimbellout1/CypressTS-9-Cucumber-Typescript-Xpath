@@ -2,8 +2,8 @@
 /// <reference types="cypress-xpath" />
 
 import { Given } from "cypress-cucumber-preprocessor/steps";
-import { pass } from "../../../support/pages/passWithTypescript/someFile.cy";
-import { localFunctionWithTypes } from "../../../support/pages/passWithTypescript/someFile.cy";
+import { pass } from "../../../../support/pages/passWithTypescript/someFile.cy";
+import { localFunctionWithTypes } from "../../../../support/pages/passWithTypescript/someFile.cy";
 
 
 

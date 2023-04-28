@@ -9,6 +9,9 @@
   "video"                 : false,
   "videoCompression"      : false,
   "chromeWebSecurity"     : false,
-  "includeShadowDom"      : true
+  "includeShadowDom"      : true,
+  "env": {
+    
+  }
 
 }

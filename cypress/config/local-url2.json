@@ -1,0 +1,6 @@
+{
+    "baseUrl": "https://react-redux.realworld.io/#/login",
+    "env": {
+        "environment": "local"
+    }
+}
